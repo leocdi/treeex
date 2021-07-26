@@ -1,0 +1,12 @@
+<div>
+    <input type="search" class="form-control form-control-sm col-11  m-1 mx-auto" id="searchTree" placeholder="Rechercher" />
+    <div id="jstree_div"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.11/themes/default/style.min.css" />
+</div>
+
+
+<script>
+    var jsonDatas = @Html.Raw(this.Model);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.11/jstree.min.js" defer></script>
+<script src="~/js/vctree.js" defer></script>
